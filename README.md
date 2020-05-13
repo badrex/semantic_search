@@ -25,14 +25,17 @@ Compute IDF for each term in the collection ...
 Read page2text dictionary from desk ...
 Initialize Fliar embeddings ...
 Initialize query processor object with Spacy and Flair ...
-Read FAISS search index from desk ...```
+Read FAISS search index from desk ...
+```
+
 
 Then, the program should prompt an input field to receive an input from the user
 
-```
-Please enter query here: Fingerfarbe Handabdruck Fußabdruck```
 
-Finally, the search engine should retrieve similar entries in the index, make a JSON object of the result, and print the retrieve pages with text snippets as follows 
+``` Please enter query here: Fingerfarbe Handabdruck Fußabdruck```
+
+Finally, the search engine should retrieve similar entries in the index, make a JSON object of the result, and print the retrieve pages with text snippets as follows
+
 
 ```
 You entered: Fingerfarbe Handabdruck Fußabdruck
