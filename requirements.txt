@@ -46,7 +46,7 @@ langid==1.1.6
 llvmlite==0.32.0
 MarkupSafe==1.1.1
 matplotlib==3.1.2
-mistune==0.8.4
+mistune==2.0.3
 more-itertools==8.0.2
 mpld3==0.3
 murmurhash==1.0.2
